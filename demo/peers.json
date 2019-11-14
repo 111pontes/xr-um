@@ -1,0 +1,18 @@
+{
+  "asbr": {
+    "name": "asbr1",
+    "address": "198.18.1.11",
+    "as": 65001
+  },
+  "peers": [{
+    "address": "192.168.0.2",
+    "as": 65002,
+    "group": "EBGP",
+    "interface": {
+      "name": "GigabitEthernet0/0/0/0",
+      "description": "Peering with AS65002",
+      "address": "192.168.0.1",
+      "netmask": "255.255.255.0"
+    }
+  }]
+}
